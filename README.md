@@ -3,7 +3,7 @@ Solving puzzles from
 https://projecteuler.net/archives
 
 
-# notes for myself
+# Notes for myself
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
     win 10 doesn't seem to need that
 
