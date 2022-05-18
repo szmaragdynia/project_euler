@@ -7,11 +7,12 @@ For example, 3^2 + 4^2 = 9 + 16 = 25 = 5^2.
 There exists exactly one Pythagorean triplet for which a + b + c = 1000.
 Find the eproduct abc.
 '''
+#todo: think again.
 #todo: recursive? not sure.
 #todo: more elegant approach, maybe task-specific?
 
 #unbelievably ugly code below, beware. Old, rude, bruteforce approach.
-#chociaz czy to serio takie brzydkie? moze po prostu staram sie bardziej general approach miec.
+
 
 import math
 
@@ -65,7 +66,7 @@ def find_special_triplet():
                     triplets.append(triplet)
                     if triplet[0] + triplet[1] + triplet[2] == 1000:
                         special_found = True
-        #if program is here, then it did not find enough triplets or leaves due to break. Wider range then
+        #if program is here, then it did not find enough triplets or leaves due to break. Wider range then.
         #this is done in a bad manner. Do not do this like that. (pointless re-doing the calculations)
         #but the task is so simple I do not care
         if not special_found:
