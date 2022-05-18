@@ -1,5 +1,7 @@
-# python-learning
-Directory for learning python 
+# Project Euler
+Solving puzzles from
+https://projecteuler.net/archives
+
 
 # notes for myself
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
