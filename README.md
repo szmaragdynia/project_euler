@@ -20,3 +20,5 @@ virtual environment at Windows:
 virtual environment at Linux:
 lnx: source .venv/bin/activate
 
+this line is a test
+
