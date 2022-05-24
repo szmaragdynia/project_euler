@@ -14,5 +14,5 @@ mymethod = getattr(import_module("3"), "generate_primes")
 
 #from three import generate_primes
 
-#generate_primes(3)
+generate_primes(3)
 
