@@ -28,27 +28,29 @@ def generate_primes(number_of_new_primes, output_primes = []):
         suspected_prime+=1
     return output_primes
 
-'''
-primes = generate_primes(5)
-print (primes)
-primes2 = generate_primes(3,primes)
-print (primes2)
-'''
+if __name__ == '__main__': #this will run only if the file is run itself, but not when imported as module
+
+    '''
+    primes = generate_primes(5)
+    print (primes)
+    primes2 = generate_primes(3,primes)
+    print (primes2)
+    '''
 
 
 
 
 
-#divide by every prime number starting from last element, which in 1-sized array is first. 
-#keep dividing until impossible. Then find new prime number, do the same with it.
-#continue until you divide by all factors. Then, the biggest prime number in prime numbers array is your result.
-primes = []
-input_number = 600851475143
-generate_primes(1, primes)
-while input_number != 1:
-    if input_number % primes[-1] == 0: #if what remained is divisible by biggest so far
-        input_number = input_number/primes[-1] 
-    else:
-        generate_primes(1,primes) 
-print(primes)
+    #divide by every prime number starting from last element, which in 1-sized array is first. 
+    #keep dividing until impossible. Then find new prime number, do the same with it.
+    #continue until you divide by all factors. Then, the biggest prime number in prime numbers array is your result.
+    primes = []
+    input_number = 600851475143
+    generate_primes(1, primes)
+    while input_number != 1:
+        if input_number % primes[-1] == 0: #if what remained is divisible by biggest so far
+            input_number = input_number/primes[-1] 
+        else:
+            generate_primes(1,primes) 
+    print(primes)
 
