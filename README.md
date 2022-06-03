@@ -3,7 +3,7 @@ Solving puzzles from
 https://projecteuler.net/archives
 
 
-# notes for myself
+# Notes for myself
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
     win 10 doesn't seem to need that
 
@@ -19,4 +19,6 @@ virtual environment at Windows:
 
 virtual environment at Linux:
 lnx: source .venv/bin/activate
+
+this line is a test
 

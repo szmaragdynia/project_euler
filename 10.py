@@ -6,8 +6,13 @@ Find the sum of all the primes below two million.
 
 # is there non-brute-force approach? (at least not so much)
 
-import importlib
-importlib.import_module("3")
+from importlib import import_module
 
+mymethod = getattr(import_module("3"), "generate_primes")
 
-from mymodule import generate_primes
+#import_module('3','generate_primes')
+
+#from three import generate_primes
+
+generate_primes(3)
+

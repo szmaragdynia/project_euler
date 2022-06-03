@@ -7,6 +7,8 @@ What is the largest prime factor of the number 600851475143 ?
 '''
 #todo: recursive? Doubtful, but haven't thought about it yet.
 
+
+
 #returning given number of primes. 
 # #If given a list of primes, it will add number_of_new_primes to it. Giving other lists undefined.
 def generate_primes(number_of_new_primes, output_primes = []): 
@@ -28,18 +30,14 @@ def generate_primes(number_of_new_primes, output_primes = []):
         suspected_prime+=1
     return output_primes
 
-if __name__ == '__main__': #this will run only if the file is run itself, but not when imported as module
 
+if __name__ == '__main__':
     '''
     primes = generate_primes(5)
     print (primes)
     primes2 = generate_primes(3,primes)
     print (primes2)
     '''
-
-
-
-
 
     #divide by every prime number starting from last element, which in 1-sized array is first. 
     #keep dividing until impossible. Then find new prime number, do the same with it.
