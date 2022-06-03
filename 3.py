@@ -25,13 +25,13 @@ def generate_primes(number_of_new_primes, output_primes = []):
         for prime in output_primes:
             if suspected_prime % prime == 0: #if new number is divisible by some prime
                 break #leave for loop, and increment again
-        else: #if no known primes divided "incremented" ; executes after the loop completes normally
+        else: #if no known primes divided "suspected_prime" ; executes after the loop completes normally
             output_primes.append(suspected_prime) # add primes to list
         suspected_prime+=1
     return output_primes
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': #this will not run if file is imported as module; only if run itself.
     '''
     primes = generate_primes(5)
     print (primes)
