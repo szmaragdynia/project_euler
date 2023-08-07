@@ -10,7 +10,7 @@ What is the largest prime factor of the number 600851475143 ?
 
 
 #returning given number of primes. 
-# #If given a list of primes, it will add number_of_new_primes to it. Giving other lists undefined.
+    #If given a list of primes, it will add number_of_new_primes to it. Giving other lists undefined.
 def generate_primes(number_of_new_primes, output_primes = []): 
     if number_of_new_primes < 1:
         return "Too few primes expected by user"
