@@ -28,7 +28,8 @@ Find the thirteen adjacent digits in the 1000-digit number that have the greates
 #=========================================================================================================================
 
 
-#todo: more elegant approach, maybe task-specific? Unsure if doable. 
+#todo: more elegant approach, maybe task-specific? Unsure if doable.
+#todo: maybe more efficient approach
 
 
 n_prod_digits = 13

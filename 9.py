@@ -11,7 +11,7 @@ Find the eproduct abc.
 #todo: recursive? not sure.
 #todo: more elegant approach, maybe task-specific?
 
-#unbelievably ugly code below, beware. Old, rude, bruteforce approach.
+# horrific  code below, beware. Outdate, not very smart (euphemism) bruteforce approach.
 
 
 import math
@@ -20,7 +20,7 @@ a = 0
 b = 0
 c = 0
 
-#for sake not making things way more calculation heavy than they has to be, this func is deprecated
+#for sake of not making this way more calculation heavy than they has to be, this func is deprecated
 #(Id have to parse through list of triplets and check each if is a+b+c = 1000. This is too pointless even for such simple task)
 def find_triplets(amount): 
     triplet = []

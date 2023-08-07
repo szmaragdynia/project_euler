@@ -5,12 +5,12 @@ Find the sum of all the primes below two million.
 '''
 
 
-#this worked, but it was too dumb (painfully inefficient) to use that function here, even though I wanted to be lazy. But I just could.not.do.that.
+#this worked, but it was too painfully inefficient to use that function here, even though I wanted to be lazy. But I just could.not.do.that.
 #from importlib import import_module
 #mymethod = getattr(import_module("3"), "generate_primes")
 #print(mymethod(10))
 
-# this below is rubbish. Look&learn: https://en.wikipedia.org/wiki/Primality_test
+#todo: code below is very bad. Look&learn: https://en.wikipedia.org/wiki/Primality_test
 '''
 import numpy as np
 
